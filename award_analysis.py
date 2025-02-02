@@ -91,8 +91,25 @@ def _(df):
 
 
 @app.cell
-def _():
+def _(df):
+    df.columns
     return
+
+
+@app.cell
+def _(df):
+    selected_columns_ii = df[['recipient_name','total_dollars_obligated']]
+    print("\nSelected Columns (first 5 rows:")
+    print(selected_columns_ii.head())
+    return (selected_columns_ii,)
+
+
+@app.cell
+def _(df):
+    filtered_df = df[df['total_dollars_obligated']>100000000]
+    print("\nFiltered Rows where df total_dollars_obligated more than 100,000,000 dollars")
+    print(filtered_df.head())
+    return (filtered_df,)
 
 
 @app.cell
