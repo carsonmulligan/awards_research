@@ -42,6 +42,60 @@ def _(df):
 
 
 @app.cell
+def _(df):
+    print("first five rows")
+    print(df.head())
+    return
+
+
+@app.cell
+def _(df):
+    print("\nLast 5 Rows")
+    print(df.tail())
+    return
+
+
+@app.cell
+def _(df):
+    print("\nDataframe Info")
+    print(df.info())
+    return
+
+
+@app.cell
+def _(df):
+    print("\nSummary Statistics")
+    print(df.describe())
+    return
+
+
+@app.cell
+def _(df):
+    print("\nData Types")
+    print(df.dtypes)
+    return
+
+
+@app.cell
+def _(df):
+    print("\nColumn Names:")
+    print(df.columns.tolist())
+    return
+
+
+@app.cell
+def _(df):
+    print("\nShape of Dataframe")
+    print(df.shape)
+    return
+
+
+@app.cell
+def _():
+    return
+
+
+@app.cell
 def _():
     return
 
