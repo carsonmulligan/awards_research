@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.10.19"
-app = marimo.App(width="medium")
+app = marimo.App(width="medium", app_title="Awards Search by Agency")
 
 
 @app.cell
@@ -10,7 +10,7 @@ def _():
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     import pandas as pd
     import matplotlib.pyplot as plt

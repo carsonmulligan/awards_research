@@ -1,0 +1,24 @@
+<NeuralActivationComparison>
+    <ChartOne>
+        <VisualCharacteristics>
+            <HotSpot>Centered around a smaller red area</HotSpot>
+            <Shape>Elongated but slightly narrower tail</Shape>
+            <ColorGradient>Transitions from red (most intense) through yellow and green to blue (least intense)</ColorGradient>
+        </VisualCharacteristics>
+        <Interpretation>
+            The main activation (red region) is compact, suggesting a concentrated zone of high neural response.
+            The tail is narrower, indicating a more focused gradient of activation.
+        </Interpretation>
+    </ChartOne>
+    <ChartTwo>
+        <VisualCharacteristics>
+            <HotSpot>Red area is shifted and appears larger</HotSpot>
+            <Shape>Elongated tail with a broader, more diffuse spread</Shape>
+            <ColorGradient>Similar color scheme, but with a more pronounced yellow-green transition</ColorGradient>
+        </VisualCharacteristics>
+        <Interpretation>
+            The larger red region suggests a higher or more widespread peak activation.
+            The broader tail indicates a more dispersed or extended gradient of activation.
+        </Interpretation>
+    </ChartTwo>
+</NeuralActivationComparison>
